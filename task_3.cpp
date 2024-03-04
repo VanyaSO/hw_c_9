@@ -81,5 +81,8 @@ int main()
               negativeArr,negativeSize,
                      zeroArr, zeroSize);
 
+    delete[] positiveArr;
+    delete[] negativeArr;
+    delete[] zeroArr;
     return 0;
 }
